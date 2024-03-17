@@ -19,5 +19,5 @@ jobs:
         secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         account_id: ${{ secrets.AWS_ACCOUNT_ID }}
         repo: devsecops-task
-        region: central-eu-1
+        region: eu-central-1
         dockerfile: Dockerfile
