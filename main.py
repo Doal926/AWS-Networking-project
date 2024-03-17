@@ -19,7 +19,7 @@ def get_param():
         # Process or return the parameter value
         return jsonify({"param": param_value})
     else:
-        return "subnet 1.1"
+        return "subnet 1.2"
 
 
 if __name__ == "__main__":
