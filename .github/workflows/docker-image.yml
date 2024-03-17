@@ -22,3 +22,4 @@ jobs:
         region: eu-central-1
         dockerfile: Dockerfile
         tags: latest,${{ github.sha }}
+        extra_build_args: --platform=linux/amd64
