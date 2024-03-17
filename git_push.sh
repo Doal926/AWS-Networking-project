@@ -7,4 +7,4 @@ git commit -m "test"
 
 git push
 
-echo0;
+echo 0;
