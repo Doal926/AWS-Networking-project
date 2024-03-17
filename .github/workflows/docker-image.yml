@@ -23,3 +23,4 @@ jobs:
         dockerfile: Dockerfile
         tags: latest,${{ github.sha }}
         extra_build_args: --platform=linux/amd64
+        path: .
