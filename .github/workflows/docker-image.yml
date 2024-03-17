@@ -21,3 +21,4 @@ jobs:
         repo: devsecops-task
         region: eu-central-1
         dockerfile: Dockerfile
+        tags: latest,${{ github.sha }}
