@@ -1,7 +1,7 @@
-!/bin/bash
+#!/bin/bash
 set -xe
 
-docker build -t dor .
+docker build -t dor . --platform=linux/amd64
 
 aws ecr get-login-password --region eu-central-1 | docker login --username AWS --password-stdin 058264363980.dkr.ecr.eu-central-1.amazonaws.com
 
